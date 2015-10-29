@@ -16,9 +16,7 @@ class CalibrationViewController: TouchCircleViewController {
     @IBOutlet weak var coin3: CoinLabel!
     @IBOutlet weak var coin4: CoinLabel!
     
-    @IBOutlet weak var instructionLabel: UILabel! {
-        didSet { instructionLabel.font = UIFont.monospacedDigitSystemFontOfSize(18, weight: 3) }
-    }
+    @IBOutlet weak var instructionLabel: UILabel! 
     
     /// Current coin, nil if spoon not on screen
     private var activeCoin: Int? {
